@@ -73,6 +73,18 @@ nav a {
 .fixed-nav .logo {
   max-width: 500px; }
 
+nav {
+  display: flex;
+  background: #007eb6;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1; }
+  .fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1); }
+
 header {
   height: 20vh;
   background: url(../img/img.jpg) center no-repeat;
